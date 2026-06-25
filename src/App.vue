@@ -5,5 +5,5 @@ import SampleCom from './components/SampleCom.vue'
 
 <template>
   <HelloWorld />
-  <h2>HelloKalibutan</h2>
+  <h2>HelloKalibutan</h2> 
 </template>
