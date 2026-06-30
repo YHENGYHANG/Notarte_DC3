@@ -2,7 +2,5 @@
 </script>
 
 <template>
-<div> 
-<h2>kalibutan</h2>
-</div>
+
 </template>
