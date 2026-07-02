@@ -2,7 +2,7 @@
 import SampleCom from './components/SampleCom.vue'
 import  {ref} from 'vue'
 const curse = ref(0);
-const name = ref('Bisayawa');
+const name = ref('Juan Dela Cruz');
 
   function increment() {
   curse.value++;
