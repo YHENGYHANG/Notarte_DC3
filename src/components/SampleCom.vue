@@ -43,7 +43,7 @@ const passedStudents = computed(() => {
             {{ index + 1 }} . {{ student.name }}
         </li>
         
-       h2 v-if="isLoggedIn">Welcome Back!</h2>
+       <h2 v-if="isLoggedIn">Welcome Back!</h2>
         <h2 v-else>Please Login!</h2> 
         
         <h2 v-if="score >= 90">Excellent</h2>
@@ -57,9 +57,11 @@ const passedStudents = computed(() => {
             <ul>{{ student }}</ul>
         </li> 
 
-     <div v-for="student in passedStudents" :key="student.id">
+     <h2 v-for="student in passedStudents" :key="student.id">
             <p v-if="student.passed">
                 {{ student.name }} - Passed
             </p>
-     
+    <h2>
+
+    </div>
 </template>
