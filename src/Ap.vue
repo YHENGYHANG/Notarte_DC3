@@ -20,9 +20,6 @@ const website = "https://vuejs"
 
 const isDisabled = false;
 
-const mssg = ref('Light');
-
-
 function increment() {
   student.value++;
 }

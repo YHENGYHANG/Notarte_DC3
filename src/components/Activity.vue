@@ -1,6 +1,6 @@
 //F                                                           
 <script setup>
-import {ref, computed, h} from 'vue'
+import {ref, computed} from 'vue'
 
     const sports = ref(['Basketball', 'Volleyball', 'Football', 'Tennis'])
 
