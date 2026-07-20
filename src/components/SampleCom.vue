@@ -10,6 +10,7 @@ const student = ref([
     { id: 4, name: 'Jon', age: 25 }
 ])
 
+
 const isLoggedIn = ref(true)
 const score = ref(85)
 
