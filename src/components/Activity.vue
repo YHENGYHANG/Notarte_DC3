@@ -35,14 +35,5 @@ import {ref, computed, h} from 'vue'
 
             <h2>4:</h2>
             <p>{{ full }}</p>
-
-
-
-
         </div>
-
-
-
-
-
 </template>
